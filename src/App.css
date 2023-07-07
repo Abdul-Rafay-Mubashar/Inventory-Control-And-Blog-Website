@@ -1,38 +1,1295 @@
-.App {
+.Full_Page{
+  width: 100%;
+  height: 95vh; 
+  background-color: #373636;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Heading{
+  width: 100%;
+  height: 10%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Img_Div{
+  width: 25%;
+  height: 100%;
+  min-width: 185px;
+  /* background-color: red; */
+}
+.Img_Pic{
+  width: 100%;
+  height: 100%;
+}
+.Heading_Line{
+  width: 100%;
+  height: 5%;
+  /* background-color: green; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content{
+  width: 50%;
+  height: 100%;
+  /* background-color: black; */
+  color: white;
+  font-size: 28px;
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+}
+.Login_Com{
+  width: 100%;
+  height: 70%;
+  /* background-color: red; */
+  margin-top:3% ;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+.Login_Form{
+  width: 30%;
+  height: 100%;
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 300px;
+  max-height: 410px;
+  border-radius: 25px;
+}
+.Login_Inside{
+  width: 90%;
+  height: 95%;
+  /* background-color: gray; */
+}
+.Heading_And_Input{
+  width: 100%;
+  height: 12%;
+  /* background-color: yellow; */
+  margin-bottom: 15px;
+}
+.head{
+  width: 100%;
+  height: 35%;
+  /* background-color: blue; */
+  margin-bottom: 1%;
+  color: black;
+  /* font-weight: 700; */
+}
+.Input{
+  width: 100%;
+  height: 62%;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+.Get{
+  width: 99%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  /* background-color: black; */
+  /* border-top: solid 1px gray; */
+
+}
+.Get_Password{
+  width: 99%;
+  height: 90%;
+  border: none;
+  border-radius: 5px;
+  /* background-color: black; */
+  /* border-top: solid 1px gray; */
+  -webkit-text-security: disc; 
+  /* text-security: disc; */
+}
+.Policy_Box{
+  width: 100%;
+  height: 12%;
+  /* background-color: hsl(60, 100%, 50%); */
+  /* margin-bottom: 15px; */
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+.Sign_Up_Button{
+  width: 100%;
+  height: 35px;
+  background-color: #1F69A3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.Sign_Up_Button:hover{
+  background-color: #1f84a3f1;
+}
+.Bordar_Line{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Line{
+  width: 45%;
+  height: 2px;
+  background-color: silver;
+}
+.Or{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: gray;
+  font-weight: 500;
+}
+.Option{
+  width: 100%;
+  height: 25px;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Option_Inside{
+  width: 70%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Option_Text{
+  width: 60%;
+  height: 100%;
+  /* background-color: #1F69A3; */
+
+}
+.Option_SignIn{
+  width: 10%;
+  height: 100%;
+  text-decoration: none;
+  color: #017BB6;
+}
+.Error{
+  width: 80%;
+  height: 50px;
+  min-height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: pink;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.Error_Cantainer{
+  width: 100%;
+  height: auto;
+  margin-top: -4%;
+  min-height: 20px;
+  background-color: pink;
+  /* position: fixed;
+  z-index: 2; */
+
+}
+.Invalid_Heading{
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  display: none;
+}
+.Error1{
+  width: 90%;
+  height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: lightgreen;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: -50px;
+  min-height: 50px;
+
+}
+.Error2{
+  width: 90%;
+  height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: pink;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: -50px; */
+  margin-top: 25px;
+  min-height: 50px;
+
+}
+.View_Outline_Search_Bar{
+  width: 80%;
+  height: 60%;
+  border: none;
+}
+.Error3{
+  width: 90%;
+  height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: lightgreen;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: -50px; */
+  margin-top: 25px;
+  min-height: 50px;
+
+}
+.SideBar_Outline{
+  width: 18%;
+  height: 100rem;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  /* position: fixed; */
+}
+.SideBar_Main{
+  height: 100vh;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #252525;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+.Pic_Frame{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Pic_Div{
+  width: 100%;
+  height: 50%;
+  margin-top: 5px;
+}
+.Pic_Logo{
+  width: 100%;
+  height: 100%;
+
+}
+.SideBar_OptionBar_Outline{
+  width: 100%;
+  height: 50%;
+  
+}
+.SideBar_Option_Box{
+  width: 100%;
+  height: 14%;
+  margin-top: 7.5%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.SideBar_Option_Box_LogOut{
+  width: 100%;
+  height: 14%;
+  margin-top: 7.5%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.Option_TextBox{
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  color: white;
+}
+.Option_Img{
+  width: 10%;
+  height: 100%;
+  margin-right: 5%;
+}
+.Option_Text{
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: silver;
+  /* text-decoration: none; */
+  font-family:serif ;
+
+}
+
+.Img_Option{
+  width: 100%;
+  height: 100%;
+}
+.Welcome_Outline{
+  width: 82%;
+  height: 100vh;
+  font-size: 100px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
+.AddItems_OutLine{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AddItems_Inside{
+  width: 85%;
+  height: 80%;
+  background-color: #383737;
+  padding: 1%;
+  border: solid 10px black;
+  display: flex;
+  flex-direction:column;
+}
+.SideBar_Option_Box:hover{
+  background-color: #383737;
+}
+.Full_Page_Dashboard{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 1550px;
+}
+.Top_Line{
+  width: 100%;
+  height: 20%;
+  background-color: #252525;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.Last_Line{
+  width: 100%;
+  height: 20%;
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.Top_Line_Half{
+  width: 50%;
+  height: 60%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+}
+.Data_Get_Element{
+  width: 70%;
+  height: 100%;
+  /* background-color: #1F69A3; */
+  display: flex;
+  flex-direction: column;
+}
+.Data_Get_Button{
+  width: 70%;
+  height: 100%;
+  /* background-color: #1F69A3; */
+  display: flex;
+  flex-direction: row;
+}
+.Data_Get_Heading{
+  width: 100%;
+  height: 40%;
+  /* background-color: red; */
+  color: white;
+  font-weight: 500;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.Data_Get{
+  width: 95%;
+  height: 60%;
+  border-radius: 7px;
+  border: none;
+
+}
+.Choose_Img{
+  width: 100%;
+  height: 25px;
+  border-radius: 10px 10px 10px 10px;
+}
+.Submit_Button{
+  width: 100px;
+  height: 30px;
+  background-color: #0F7E54;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 10%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Submit_Button1{
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-top: 10%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Submit_Button:hover{
+  background-color: #1BD790;
+}
+.AddItems{
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  width: 100%;
+}
+.View_Outline{
+  width: 82%;
+  height: 100vh;
+  /* background-color: red; */
+  
+}
+.View_Outline_Search{
+  width: 100%;
+  height: 10%;
+  background-color: #252525;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.View_Parent_Outline{
+  width: 100%;
+  height: 50%;
+  /* background-color: #1BD790; */
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.Loading{
+  font-size: 120px;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Loading_Main{
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+.View_Child_Outline{
+  width: 35%;
+  height: 115%;
+  background-color: #252525;
+  border-radius: 25px;
+  margin-top: -20px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.View_Child_Inside{
+  width: 90%;
+  height: 90%;
+  color: silver;
+  /* background-color: aqua; */
+}
+.Child_Des{
+  width: 100%;
+  height: 37%;
+  /* background-color: red; */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Child_Pic{
+  width: 100%;
+  height: 40%;
+  /* background-color: red; */
+
+}
+.Child_Name{
+  width: 100%;
+  height: 10%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Child_Button_Outline {
+  width: 100%;
+  height: 10%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Child_button{
+  width: 40%;
+  height: 90%;
+  background-color: red;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Child_button_delete{
+  width: 40%;
+  height: 90%;
+  background-color: red;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Child_button_update{
+  width: 40%;
+  height: 90%;
+  background-color: green;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.Delete_Outline{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 1;
+}
+.Delete_Outline1{
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Delete_Alert_Outline{
+  width: 60%;
+  height: 30%;
+  background-color: white;
+  border-radius: 25px;
+  opacity: 1;
+}
+.Delete_Alert_Top{
+  width: 100%;
+  height: 30%;
+  border-bottom: solid 2px gray;
+}
+.Delete_Alert_Msg{
+  width: 100%;
+  height: 30%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Button_Bar{
+  width: 100%;
+  height: 20%;
+  background-color: #017BB6;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.Delete_button_delete{
+  width: 20%;
+  height: 80%;
+  background-color: red;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.Cancel_button_update{
+  width: 20%;
+  height: 80%;
+  background-color: greenyellow ;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.Form_Choose_Img1{
+  width: 100%;
+  height: 100%;
+}
+.AddBlog_Outline{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.AddBlog_Outline_Part1{
+  width: 70%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.AddBlog_Outline_Part2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.Input_Com{
+  width: 70%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px gray;
+  border-radius: 25px;
+}
+.Input_Com1{
+  width: 70%;
+  height: 20%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px gray;
+  border-radius: 25px;
+
+}
+.Input_Heading{
+  width: 90%;
+  height: 15%;
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.Input_Image_Heading{
+  width: 80%;
+  height: 15%;
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-left: 4%;
+}
+.Input_Com_Heading{
+  width: 88.5%;
+  height: 25%;
+  font-size: 18px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+
+}
+.Input_Heading_Last{
+  width: 90%;
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+.Input_Heading_Last_ButtonBar{
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.Input_Heading_Last_ButtonBar_Cencel{
+  width: 20%;
+  height: 100%;
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+  min-width: 60px;
+}
+.Input_Heading_Last_ButtonBar_Save{
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+  min-width: 60px;
+
+}
+.Part2_Inside{
+  width: 90%;
+  height: 90%;
+  border: solid 5px rgba(0, 0, 0, 0.356);
+
+}
+.Add_SubHeading{
+  width: 100%;
+  height: 35px;
+  background-color: navy;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.Add_Para{
+  width: 100%;
+  height: 35px;
+  background-color: greenyellow;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.Complete{
+  width: 100%;
+  height: 35px;
+  background-color: darkgoldenrod;
+  border: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.For_Para{
+  width: 70%;
+  height: 60%;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px gray;
+  border-radius: 25px;
+}
+.Input_Image{
+  width: 70%;
+  height: 20%;
+  /* display: none; */
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px gray;
+  display: none;
+  border-radius: 25px;
+}
+.Input_Slider{
+  width: 70%;
+  height: 20%;
+  /* display: none; */
+  align-items: center;
+  flex-direction: column;
+  border: solid 5px gray;
+  /* display: none; */
+  border-radius: 25px;
+}
+.Input_Heading1{
+  width: 90%;
+  height: 5%;
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  margin-bottom: 5px;
+}
+.Input_Heading_Last1{
+  width: 90%;
+  height: 20%;
+  background-color: #0F7E54;
+  display: flex;
+  align-items: flex-end;
+}
+.Input_Com_Heading1{
+  width: 90%;
+  height: 90%;
+  font-size: 14px;
+}
+.Auto{
+  height: 100vh;
+  width: 82%;
+  /* background-color: aqua; */
+}
+.ViewBlog_OutLine{
+  width: 82%;
+  height: 100vh;
+  /* background-color: #017BB6; */
+}
+.ViewBlog_Outline_Search{
+  width: 100%;
+  height: 10vh;
+  background-color: #252525;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Blog_Container{
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+}
+.Mobile_SideBar_Outline{
+  width: 100%;
+  height: 50px;
+  background-color: #252525;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.Mobile_SideBar{
+  width: 95%;
+  height: 40px;
+  /* background-color: red; */
+}
+.Mobile_SideBar_Button{
+  width: 50px;
+  height: 40px;
+  background-color: whitesmoke;
+}
+.Mobile_SideBar_Button_Img{
+  width: 100%;
+  height: 100%;
+}
+.Blog_Container_Part1{
+  width: 50%;
+  height: 40vh;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.View_Blog_Pic{
+  width: 100%;
+  height: 90%;
+}
+.Edit_Delete_View{
+  width: 85%;
+  height: 10%;
+  background-color: #373636;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+}
+.Blog_Outline{
+  width: 85%;
+  height: 80%;
+  background-color: #1BD790;
+  /* max-height: 170px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Blog_Heading{
+  width: 100%;
+  height: 25%;
+  background-color: #373636;
+  /* margin-bottom:25px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Headoing_B{
+  width: 90%;
+  height: 90%;
+  background-color: #252525;
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden;
+  color: White;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+.Buttons_Edit_Delete_View{
+  width: 20px;
+  height: 100%;
+  margin-left: 5px;
+  background-color: #1BD790;
+} 
+.Img_Edit_Delete_View{
+  width: 100%;
+  height: 100%;
+}
+.ViewSpecificBlog_Outline{
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.ViewSpecificBlog_Inside{
+  width: 95%;
+  height: auto;
+  /* background-color: #1BD790; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Add_Image{
+  width: 100%;
+  height: 35px;
+  background-color: Dark palevioletred;
+  border: none;
+  text-align: center;
   color: white;
+  font-weight: 700;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.ViewSpecificBlog_Inside_Heading{
+  width: 100%;
+  height: 10vh;
+  /* background-color: purple; */
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: solid 10px #252525;
+}
+.ViewSpecificBlog_Inside_Para{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  /* background-color: yellow; */
+  margin-bottom: 10px;
+}
+.ViewSpecificBlog_Image_Outline{
+  height: 40vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.MyStyle{
+  height: 30vh;
+  width: 60%;
+  background-color: blue;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ViewSpecificBlog_Image{
+  width: 90%;
+  height: 80%;
+}
+.ViewSpecificBlog_Inside_Sub{
+  width: 100%;
+  height: auto;
+  /* background-color: blue; */
+  font-size: 24px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-weight: 700;
+  min-height: 8vh;
+  margin-bottom: 10px;
+}
+.Blog_Outline_Main{
+  width: 90%;
+  height: 90%;
+  background-color: yellow;
+}
+.Only{
+  width: 100%;
+  height: 100%;
+}
+.Mobile_SideBar_Outline_For_Bar{
+  /* width: 70%; */
+  height: 100%;
+  background-color: #252525;
+  /* opacity: 0.5; */
+  z-index: 2;
+  position:absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.Mobile_SideBar_Outline_For_Bar_Inside{
+  width: 95%;
+  height: 100%;
+  /* background-color: red; */
+}
+.Mobile_SideBar_Outline_Component_Exit{
+  width: 100%;
+  height: 50px;
+  /* background-color: #0F7E54; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Mobile_SideBar_Outline_Component{
+  width: 100%;
+  height: 50px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 16px;
+  color: silver;
+  font-family:serif ;
+}
+
+.Mobile_SideBar_Outline_Component_LogOut{
+  width: 100%;
+  height: 50px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 16px;
+  color: silver;
+  font-family:serif ;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:650px) {
+  .Heading_Line{
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .Content{
+    font-size: 20px;
+  }
+  .Error2{
+    min-height: 50px;
+  }
+  .Choose_Img{
+    margin-left: 20px;
+    min-width: 250px;
+  }
+  .Top_Line_Half{
+    min-height:54px;
+    margin-bottom: 40px;
+    width: 90%;
+    justify-content: center;
+    min-width: 245px;
+
+  }
+  .Data_Get_Element{
+    width: 100%;
+
+  }
+  .Top_Line{
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+    ;
+  }
+  .Welcome_Outline{
+    font-size: 75px;
+  }
+  .Delete_button_delete{
+    width: 68px;
+  }
+  .Delete_Alert_Outline{
+    min-width: 270px;
+  }
+  .Cancel_button_update{
+    width: 68px;
+  }
+  .Delete_Alert_Msg{
+    font-size: 15px;
+  }
+  .Blog_Outline{
+    max-width: 350px;
+  }
+
+  .Edit_Delete_View{
+    max-width: 350px;
+  }
+  .SideBar_Outline{
+    display: none;
+  }
+  .Full_Page_Dashboard{
+    flex-direction: column;
+  }
+  .Welcome_Outline{
+    width: 100%;
+  }
+  .Mobile_SideBar_Outline{
+    display: flex;
+  }
+  .Auto{
+    width: 100vw;
+  }
+  .AddBlog_Outline{
+    width: 100%;
+  }
+  .AddBlog_Outline_Part1{
+    width: 100%;
+  }
+  .Input_Com{
+    min-width: 270px;
+  }
+  .Input_Com1{
+    min-width: 270px;
+  }
+  .For_Para{
+    min-width: 270px;
+  }
+  .Input_Image{
+    min-width: 270px;
+  }
+  .AddBlog_Outline_Part2{
+    width: 1000%;
+  }
+  .ViewBlog_OutLine{
+    width: 100%;
+  }
+  .Blog_Container{
+    flex-direction: column;
+  }
+  .Blog_Container_Part1{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .View_Outline{
+    width: 100%;
+  }
+  .View_Parent_Outline{
+    flex-direction: column;
+    height: 150%;
+    margin: 0;
+  }
+  .View_Child_Outline{
+    width: 90%;
+    max-height: 350px;
+    margin-bottom: 50px;
+    max-width: 317px;
+    /* margin-top: 50px; */
+  }
+  .Child_Button_Outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .View_Outline_Search{
+    margin: 10px;
+  }
+}
+@media screen and (max-width:450px) {
+  .Welcome_Outline{
+    font-size: 40px;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .Policy_Box{
+    height: 18%;
+  }
+}
+@media screen and (max-width:1700px) {
+  .Policy_Box{
+    height: 18%;
+  }
+}
+@media screen and (max-width:1300px) {
+  .Policy_Box{
+    height: 18%;
+
+  }
+  .Login_Form{
+    max-height: 410px;
+  }
+  .Option_Inside{
+    width: 250px;
+  }
+}
+@media screen and (width:450px) {
+  .Policy_Box{
+    height: 14;
+
   }
 }
